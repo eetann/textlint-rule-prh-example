@@ -1,0 +1,4 @@
+rules:
+  prh: 
+    rulePaths: 
+      - ./prh.yaml

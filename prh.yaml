@@ -1,0 +1,8 @@
+version: 1
+imports:
+  - path: ./node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml
+    disableImports: true
+    ignoreRules:
+      - expected: まったく
+      - expected: $1ほか$2
+      - pattern: /([^有])無([かくいけし])/gmu
